@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script src="cadastro.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="">
+     <h1>Cadastre-se</h1>
+                
+    
+    <input type="number" id="id" placeholder="idfuncionario" required="required" name="id" />
+    <label for="id">ID</label>
+                  
+    
+    <input type="text" id="nome" placeholder="Jacqueline" name="nome" />
+    <label for="nome">Nome</label>
+                  
+    
+    <input type="tel" id="fone" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+    <label for="fone">Telefone</label>
+                        
+    
+    <input type="text" id="cep"  name="cep" />
+    <label for="cep">CEP</label>
+
+    
+    <input type="text" id="logradouro"  name="logradouro" />
+    <label for="logradouro">Logradouro</label>
+
+    
+    <input type="text" id="bairro"  name="bairro" />
+    <label for="bairro">Bairro</label>
+
+    
+    <input type="text" id="cidade"  name="cidade" />
+    <label for="cidade">Cidade</label>
+
+   
+    <input type="text" id="uf"  name="uf" />
+    <label for="uf">UF</label>
+
+    
+    <input type="number" id="salario"  name="salario" />
+    <label for="salario">Salario</label>
+
+    
+    <input type="text" id="estadocivil"  name="estadocivil" />
+    <label for="estadocivil">Estado Civil</label>
+
+    
+    <input type="number" id="idade"  name="idade" />
+    <label for="idade">Idade</label>
+
+    <input type="submit" class="enviar" onclick="Enviar()" value="Cadastrar" />
+    <input type="submit" class="imprimir" onclick="window.print()" value="Imprimir Pagina" />
+    <input type="submit" class ="consultar" value="Consultar CEP" onclick="findCEP()">
+    <ul style="list-style: none;">
+        <li><a href="home.html" style="color: black;"> Retornar a Pagina Inicial</a></li>
+    </ul>
+</form>
+
+</body>
+</html>
